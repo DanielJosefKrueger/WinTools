@@ -3,7 +3,6 @@ package de.djktech.observer;
 public class ProcessInformation {
 
 
-
     private final String name;
     private final int pid;
     private final String sitzungsname;
@@ -20,7 +19,7 @@ public class ProcessInformation {
     }
 
 
-    public static Process fromString(String line){
+    public static Process fromString(String line) {
 
         return null; //TODO implement
     }
